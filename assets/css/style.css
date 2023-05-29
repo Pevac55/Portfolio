@@ -1,0 +1,173 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header{
+height: 200px;
+background-color: #1F214D;
+background-image: linear-gradient(#1F214D, #362D71);
+width:100%;
+height:90px;
+display:fixed;
+color:#57D9EA;
+}
+
+nav{
+	padding-right:30px;
+	float:right;
+	height:100%;
+	width:550px;
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li{
+
+}
+
+li a{
+	color:#57D9EA;
+	text-decoration:none;
+	font-size:25px;
+	position: relative;
+    display:block;
+	transition: transform 1s ease;
+}
+
+li a:hover {
+	border-bottom:1px solid #57D9EA;
+}
+
+#cover {
+	width:100%;
+	height:800px;
+	background-image:url("../../assets/img/cover.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#shadow{
+	background-color:rgba(1,0,0,0.5);
+	width:100%;
+	height:inherit;
+}
+
+#Hello{
+	color:#57D9EA;
+	margin-left:68%;
+	padding-top:19%;
+	font-size:35px;
+}
+
+#about{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	height:440px;
+	background-color:#1F214D;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:5%;
+}
+
+#ja-opis{
+	width:50%;
+	color:#57D9EA;
+}
+
+#ja{
+	margin-left:40%;
+	height:95%;
+	background-image:url("../../assets/img/Slika.jpg");
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+
+#1{
+	background-color:#1F214D;
+}
+
+.naslov{
+	width:100%;
+	border-top:1px solid #57D9EA;
+	text-align:center;
+	background-color:#362D71;
+	height:50px;
+	color:#57D9EA;
+}
+
+#projects{
+	display: flex;
+    justify-content:space-evenly;
+	background-color:#362D71;
+	width:100%;
+	height:250px;
+	text-align:center;
+	color:#57D9EA;
+}
+
+.card-body{
+	background-color:#6F51D5;
+}
+
+.card-body h5{
+	color:#57D9EA;
+}
+
+#contact2{
+	padding-top:10%;
+	background-color:#362D71;
+	width:100%;
+	height:650px;
+}
+
+#contact1{
+	width:58.6%;
+	height:450px;
+	background-color:#4628A9;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mb-3{
+	background-color:#4628A9;
+}
+
+
+
+footer{
+	width:100%;
+	height:100px;
+	background-color:#000;
+}
+
+i{
+	color:#6F51D5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
